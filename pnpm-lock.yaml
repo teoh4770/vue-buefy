@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  buefy:
+    specifier: ^3.0.3
+    version: 3.0.3(vue@3.5.22)
   vue:
     specifier: ^3.5.22
     version: 3.5.22
@@ -947,6 +950,19 @@ packages:
       node-releases: 2.0.26
       update-browserslist-db: 1.1.4(browserslist@4.27.0)
     dev: true
+
+  /buefy@3.0.3(vue@3.5.22):
+    resolution: {integrity: sha512-//QfIDgbhmpn+mFszD/lEwhlphA+hQavJED2XwjlzqS/bpxYjk/Rnj36X08QVbqiH3lt4a+G357uzsZczc7JTg==}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      bulma: 1.0.4
+      vue: 3.5.22
+    dev: false
+
+  /bulma@1.0.4:
+    resolution: {integrity: sha512-Ffb6YGXDiZYX3cqvSbHWqQ8+LkX6tVoTcZuVB3lm93sbAVXlO0D6QlOTMnV6g18gILpAXqkG2z9hf9z4hCjz2g==}
+    dev: false
 
   /bundle-name@4.1.0:
     resolution: {integrity: sha512-tjwM5exMg6BGRI+kNmTntNsvdZS1X8BFYS6tnJ2hdH0kVxM6/eVZ2xy+FqStSWvYmtfFMDLIxurorHwDKfDz5Q==}
