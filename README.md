@@ -1,6 +1,40 @@
 # vue+buefy
 
-### Layout & elements
+## Setup Requirements
+
+### Prerequisites
+- Node.js: `^20.19.0` or `>=22.12.0`
+- npm (comes with Node.js) or your preferred package manager
+
+### Installation
+
+1. Clone the repository (or navigate to the project directory)
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+### Development
+
+Start the development server:
+```bash
+npm run dev
+```
+
+### Build
+
+Build for production:
+```bash
+npm run build
+```
+
+Preview production build:
+```bash
+npm run preview
+```
+
+## Layout & elements
 
 Buefy has the entire Bulma's core built in. You can use any feature from Bulma, plus all the components Buefy offers
 
