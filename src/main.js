@@ -15,7 +15,13 @@ const app = createApp(App)
 
 // Install plugins here
 // Register Buefy plugin
-app.use(Buefy);
+app.use(Buefy, {
+    defaultIconPack: 'fas',  // Font Awesome Solid
+    // OR
+    // defaultIconPack: 'fa'   // Font Awesome (generic)
+    // OR
+    // defaultIconPack: 'mdi'  // Material Design Icons
+});
 
 // Register Table and Input Buefy component
 // app.use(Table)
